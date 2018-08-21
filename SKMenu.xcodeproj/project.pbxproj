@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53402992212C0BAF0029CF0D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53402991212C0BAF0029CF0D /* AppDelegate.m */; };
+		53402995212C0BAF0029CF0D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53402994212C0BAF0029CF0D /* ViewController.m */; };
+		53402998212C0BAF0029CF0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53402996212C0BAF0029CF0D /* Main.storyboard */; };
+		5340299A212C0BB00029CF0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53402999212C0BB00029CF0D /* Assets.xcassets */; };
+		5340299D212C0BB00029CF0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5340299B212C0BB00029CF0D /* LaunchScreen.storyboard */; };
+		534029A0212C0BB00029CF0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5340299F212C0BB00029CF0D /* main.m */; };
+		534029AA212C0BB00029CF0D /* SKMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 534029A9212C0BB00029CF0D /* SKMenuTests.m */; };
+		534029B5212C0BB00029CF0D /* SKMenuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 534029B4212C0BB00029CF0D /* SKMenuUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		534029A6212C0BB00029CF0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53402985212C0BAF0029CF0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5340298C212C0BAF0029CF0D;
+			remoteInfo = SKMenu;
+		};
+		534029B1212C0BB00029CF0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53402985212C0BAF0029CF0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5340298C212C0BAF0029CF0D;
+			remoteInfo = SKMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5340298D212C0BAF0029CF0D /* SKMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53402990212C0BAF0029CF0D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		53402991212C0BAF0029CF0D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		53402993212C0BAF0029CF0D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		53402994212C0BAF0029CF0D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		53402997212C0BAF0029CF0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53402999212C0BB00029CF0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5340299C212C0BB00029CF0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5340299E212C0BB00029CF0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5340299F212C0BB00029CF0D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		534029A5212C0BB00029CF0D /* SKMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		534029A9212C0BB00029CF0D /* SKMenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKMenuTests.m; sourceTree = "<group>"; };
+		534029AB212C0BB00029CF0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		534029B0212C0BB00029CF0D /* SKMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		534029B4212C0BB00029CF0D /* SKMenuUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKMenuUITests.m; sourceTree = "<group>"; };
+		534029B6212C0BB00029CF0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5340298A212C0BAF0029CF0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		534029A2212C0BB00029CF0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		534029AD212C0BB00029CF0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53402984212C0BAF0029CF0D = {
+			isa = PBXGroup;
+			children = (
+				5340298F212C0BAF0029CF0D /* SKMenu */,
+				534029A8212C0BB00029CF0D /* SKMenuTests */,
+				534029B3212C0BB00029CF0D /* SKMenuUITests */,
+				5340298E212C0BAF0029CF0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5340298E212C0BAF0029CF0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5340298D212C0BAF0029CF0D /* SKMenu.app */,
+				534029A5212C0BB00029CF0D /* SKMenuTests.xctest */,
+				534029B0212C0BB00029CF0D /* SKMenuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5340298F212C0BAF0029CF0D /* SKMenu */ = {
+			isa = PBXGroup;
+			children = (
+				53402990212C0BAF0029CF0D /* AppDelegate.h */,
+				53402991212C0BAF0029CF0D /* AppDelegate.m */,
+				53402993212C0BAF0029CF0D /* ViewController.h */,
+				53402994212C0BAF0029CF0D /* ViewController.m */,
+				53402996212C0BAF0029CF0D /* Main.storyboard */,
+				53402999212C0BB00029CF0D /* Assets.xcassets */,
+				5340299B212C0BB00029CF0D /* LaunchScreen.storyboard */,
+				5340299E212C0BB00029CF0D /* Info.plist */,
+				5340299F212C0BB00029CF0D /* main.m */,
+			);
+			path = SKMenu;
+			sourceTree = "<group>";
+		};
+		534029A8212C0BB00029CF0D /* SKMenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				534029A9212C0BB00029CF0D /* SKMenuTests.m */,
+				534029AB212C0BB00029CF0D /* Info.plist */,
+			);
+			path = SKMenuTests;
+			sourceTree = "<group>";
+		};
+		534029B3212C0BB00029CF0D /* SKMenuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				534029B4212C0BB00029CF0D /* SKMenuUITests.m */,
+				534029B6212C0BB00029CF0D /* Info.plist */,
+			);
+			path = SKMenuUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5340298C212C0BAF0029CF0D /* SKMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 534029B9212C0BB00029CF0D /* Build configuration list for PBXNativeTarget "SKMenu" */;
+			buildPhases = (
+				53402989212C0BAF0029CF0D /* Sources */,
+				5340298A212C0BAF0029CF0D /* Frameworks */,
+				5340298B212C0BAF0029CF0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKMenu;
+			productName = SKMenu;
+			productReference = 5340298D212C0BAF0029CF0D /* SKMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		534029A4212C0BB00029CF0D /* SKMenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 534029BC212C0BB00029CF0D /* Build configuration list for PBXNativeTarget "SKMenuTests" */;
+			buildPhases = (
+				534029A1212C0BB00029CF0D /* Sources */,
+				534029A2212C0BB00029CF0D /* Frameworks */,
+				534029A3212C0BB00029CF0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				534029A7212C0BB00029CF0D /* PBXTargetDependency */,
+			);
+			name = SKMenuTests;
+			productName = SKMenuTests;
+			productReference = 534029A5212C0BB00029CF0D /* SKMenuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		534029AF212C0BB00029CF0D /* SKMenuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 534029BF212C0BB00029CF0D /* Build configuration list for PBXNativeTarget "SKMenuUITests" */;
+			buildPhases = (
+				534029AC212C0BB00029CF0D /* Sources */,
+				534029AD212C0BB00029CF0D /* Frameworks */,
+				534029AE212C0BB00029CF0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				534029B2212C0BB00029CF0D /* PBXTargetDependency */,
+			);
+			name = SKMenuUITests;
+			productName = SKMenuUITests;
+			productReference = 534029B0212C0BB00029CF0D /* SKMenuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53402985212C0BAF0029CF0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = sk;
+				TargetAttributes = {
+					5340298C212C0BAF0029CF0D = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					534029A4212C0BB00029CF0D = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 5340298C212C0BAF0029CF0D;
+					};
+					534029AF212C0BB00029CF0D = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 5340298C212C0BAF0029CF0D;
+					};
+				};
+			};
+			buildConfigurationList = 53402988212C0BAF0029CF0D /* Build configuration list for PBXProject "SKMenu" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53402984212C0BAF0029CF0D;
+			productRefGroup = 5340298E212C0BAF0029CF0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5340298C212C0BAF0029CF0D /* SKMenu */,
+				534029A4212C0BB00029CF0D /* SKMenuTests */,
+				534029AF212C0BB00029CF0D /* SKMenuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5340298B212C0BAF0029CF0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5340299D212C0BB00029CF0D /* LaunchScreen.storyboard in Resources */,
+				5340299A212C0BB00029CF0D /* Assets.xcassets in Resources */,
+				53402998212C0BAF0029CF0D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		534029A3212C0BB00029CF0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		534029AE212C0BB00029CF0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53402989212C0BAF0029CF0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53402995212C0BAF0029CF0D /* ViewController.m in Sources */,
+				534029A0212C0BB00029CF0D /* main.m in Sources */,
+				53402992212C0BAF0029CF0D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		534029A1212C0BB00029CF0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				534029AA212C0BB00029CF0D /* SKMenuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		534029AC212C0BB00029CF0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				534029B5212C0BB00029CF0D /* SKMenuUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		534029A7212C0BB00029CF0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5340298C212C0BAF0029CF0D /* SKMenu */;
+			targetProxy = 534029A6212C0BB00029CF0D /* PBXContainerItemProxy */;
+		};
+		534029B2212C0BB00029CF0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5340298C212C0BAF0029CF0D /* SKMenu */;
+			targetProxy = 534029B1212C0BB00029CF0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		53402996212C0BAF0029CF0D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53402997212C0BAF0029CF0D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5340299B212C0BB00029CF0D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5340299C212C0BB00029CF0D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		534029B7212C0BB00029CF0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		534029B8212C0BB00029CF0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		534029BA212C0BB00029CF0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SKMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sk.SKMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		534029BB212C0BB00029CF0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SKMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sk.SKMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		534029BD212C0BB00029CF0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SKMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sk.SKMenuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKMenu.app/SKMenu";
+			};
+			name = Debug;
+		};
+		534029BE212C0BB00029CF0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SKMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sk.SKMenuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKMenu.app/SKMenu";
+			};
+			name = Release;
+		};
+		534029C0212C0BB00029CF0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SKMenuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sk.SKMenuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SKMenu;
+			};
+			name = Debug;
+		};
+		534029C1212C0BB00029CF0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SKMenuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sk.SKMenuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SKMenu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53402988212C0BAF0029CF0D /* Build configuration list for PBXProject "SKMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				534029B7212C0BB00029CF0D /* Debug */,
+				534029B8212C0BB00029CF0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		534029B9212C0BB00029CF0D /* Build configuration list for PBXNativeTarget "SKMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				534029BA212C0BB00029CF0D /* Debug */,
+				534029BB212C0BB00029CF0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		534029BC212C0BB00029CF0D /* Build configuration list for PBXNativeTarget "SKMenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				534029BD212C0BB00029CF0D /* Debug */,
+				534029BE212C0BB00029CF0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		534029BF212C0BB00029CF0D /* Build configuration list for PBXNativeTarget "SKMenuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				534029C0212C0BB00029CF0D /* Debug */,
+				534029C1212C0BB00029CF0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53402985212C0BAF0029CF0D /* Project object */;
+}
