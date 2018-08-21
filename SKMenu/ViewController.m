@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "FloatPartHeader.h"
 @interface ViewController ()
 
 @end
@@ -17,6 +17,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    FloatPartView * menuView =[FloatPartView defaultPositionView];
+    menuView.menuCallBack = ^(FloatPartItemView *callbackResult) {
+        
+    };
+    [self.view addSubview:menuView];
 }
 
 

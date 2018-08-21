@@ -15,6 +15,27 @@
 		534029A0212C0BB00029CF0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5340299F212C0BB00029CF0D /* main.m */; };
 		534029AA212C0BB00029CF0D /* SKMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 534029A9212C0BB00029CF0D /* SKMenuTests.m */; };
 		534029B5212C0BB00029CF0D /* SKMenuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 534029B4212C0BB00029CF0D /* SKMenuUITests.m */; };
+		534029DC212C0C080029CF0D /* FloatIconItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 534029C5212C0C080029CF0D /* FloatIconItem.m */; };
+		534029DD212C0C080029CF0D /* FloatIconItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 534029C5212C0C080029CF0D /* FloatIconItem.m */; };
+		534029DE212C0C080029CF0D /* FloatIconItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 534029C5212C0C080029CF0D /* FloatIconItem.m */; };
+		534029DF212C0C080029CF0D /* FloatPartItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 534029C8212C0C080029CF0D /* FloatPartItemView.m */; };
+		534029E0212C0C080029CF0D /* FloatPartItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 534029C8212C0C080029CF0D /* FloatPartItemView.m */; };
+		534029E1212C0C080029CF0D /* FloatPartItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 534029C8212C0C080029CF0D /* FloatPartItemView.m */; };
+		534029E2212C0C080029CF0D /* FloatPartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 534029CA212C0C080029CF0D /* FloatPartView.m */; };
+		534029E3212C0C080029CF0D /* FloatPartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 534029CA212C0C080029CF0D /* FloatPartView.m */; };
+		534029E4212C0C080029CF0D /* FloatPartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 534029CA212C0C080029CF0D /* FloatPartView.m */; };
+		53402A24212C0DE30029CF0D /* bacground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53402A19212C0DE30029CF0D /* bacground@2x.png */; };
+		53402A25212C0DE30029CF0D /* clb.png in Resources */ = {isa = PBXBuildFile; fileRef = 53402A1A212C0DE30029CF0D /* clb.png */; };
+		53402A26212C0DE30029CF0D /* clb_pre.png in Resources */ = {isa = PBXBuildFile; fileRef = 53402A1B212C0DE30029CF0D /* clb_pre.png */; };
+		53402A27212C0DE30029CF0D /* dd.png in Resources */ = {isa = PBXBuildFile; fileRef = 53402A1C212C0DE30029CF0D /* dd.png */; };
+		53402A28212C0DE30029CF0D /* dd_pre.png in Resources */ = {isa = PBXBuildFile; fileRef = 53402A1D212C0DE30029CF0D /* dd_pre.png */; };
+		53402A29212C0DE30029CF0D /* flb.png in Resources */ = {isa = PBXBuildFile; fileRef = 53402A1E212C0DE30029CF0D /* flb.png */; };
+		53402A2A212C0DE30029CF0D /* flb_pre.png in Resources */ = {isa = PBXBuildFile; fileRef = 53402A1F212C0DE30029CF0D /* flb_pre.png */; };
+		53402A2D212C0DE30029CF0D /* tlb.png in Resources */ = {isa = PBXBuildFile; fileRef = 53402A22212C0DE30029CF0D /* tlb.png */; };
+		53402A2E212C0DE30029CF0D /* tlb_pre.png in Resources */ = {isa = PBXBuildFile; fileRef = 53402A23212C0DE30029CF0D /* tlb_pre.png */; };
+		71A6DD0FFC94D026361B29A3 /* libPods-SKMenu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C7E066B4072D5DFC4A132CF /* libPods-SKMenu.a */; };
+		DE4E26A5685F9368E75C2F27 /* libPods-SKMenuUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F50A31891134405CBB2BF0 /* libPods-SKMenuUITests.a */; };
+		FEA5240D264A5AA0D848E996 /* libPods-SKMenuTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C49EFC0286C7400C7379AEB1 /* libPods-SKMenuTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +56,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		32B216FA72B6DF1769BBA63E /* Pods-SKMenuUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKMenuUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SKMenuUITests/Pods-SKMenuUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4840312DB87BF9AE26D1F090 /* Pods-SKMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKMenu.release.xcconfig"; path = "Pods/Target Support Files/Pods-SKMenu/Pods-SKMenu.release.xcconfig"; sourceTree = "<group>"; };
 		5340298D212C0BAF0029CF0D /* SKMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53402990212C0BAF0029CF0D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		53402991212C0BAF0029CF0D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +74,29 @@
 		534029B0212C0BB00029CF0D /* SKMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		534029B4212C0BB00029CF0D /* SKMenuUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKMenuUITests.m; sourceTree = "<group>"; };
 		534029B6212C0BB00029CF0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		534029C4212C0C080029CF0D /* FloatIconItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloatIconItem.h; sourceTree = "<group>"; };
+		534029C5212C0C080029CF0D /* FloatIconItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloatIconItem.m; sourceTree = "<group>"; };
+		534029C6212C0C080029CF0D /* FloatPartHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloatPartHeader.h; sourceTree = "<group>"; };
+		534029C7212C0C080029CF0D /* FloatPartItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloatPartItemView.h; sourceTree = "<group>"; };
+		534029C8212C0C080029CF0D /* FloatPartItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloatPartItemView.m; sourceTree = "<group>"; };
+		534029C9212C0C080029CF0D /* FloatPartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloatPartView.h; sourceTree = "<group>"; };
+		534029CA212C0C080029CF0D /* FloatPartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloatPartView.m; sourceTree = "<group>"; };
+		53402A19212C0DE30029CF0D /* bacground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bacground@2x.png"; sourceTree = "<group>"; };
+		53402A1A212C0DE30029CF0D /* clb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clb.png; sourceTree = "<group>"; };
+		53402A1B212C0DE30029CF0D /* clb_pre.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clb_pre.png; sourceTree = "<group>"; };
+		53402A1C212C0DE30029CF0D /* dd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dd.png; sourceTree = "<group>"; };
+		53402A1D212C0DE30029CF0D /* dd_pre.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dd_pre.png; sourceTree = "<group>"; };
+		53402A1E212C0DE30029CF0D /* flb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flb.png; sourceTree = "<group>"; };
+		53402A1F212C0DE30029CF0D /* flb_pre.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flb_pre.png; sourceTree = "<group>"; };
+		53402A22212C0DE30029CF0D /* tlb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tlb.png; sourceTree = "<group>"; };
+		53402A23212C0DE30029CF0D /* tlb_pre.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tlb_pre.png; sourceTree = "<group>"; };
+		55DAC1790D02E901A8ECBDA5 /* Pods-SKMenuTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKMenuTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SKMenuTests/Pods-SKMenuTests.release.xcconfig"; sourceTree = "<group>"; };
+		72BC985B188EAF232AF3D4CF /* Pods-SKMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKMenu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SKMenu/Pods-SKMenu.debug.xcconfig"; sourceTree = "<group>"; };
+		8C7E066B4072D5DFC4A132CF /* libPods-SKMenu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SKMenu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C49EFC0286C7400C7379AEB1 /* libPods-SKMenuTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SKMenuTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7FE0CC0310ED7C8C74CB856 /* Pods-SKMenuUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKMenuUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SKMenuUITests/Pods-SKMenuUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C9F50A31891134405CBB2BF0 /* libPods-SKMenuUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SKMenuUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F78357D4AC701C13C6BD375F /* Pods-SKMenuTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKMenuTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SKMenuTests/Pods-SKMenuTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71A6DD0FFC94D026361B29A3 /* libPods-SKMenu.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEA5240D264A5AA0D848E996 /* libPods-SKMenuTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +120,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE4E26A5685F9368E75C2F27 /* libPods-SKMenuUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		31F94D9BA22488235B8BF229 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C7E066B4072D5DFC4A132CF /* libPods-SKMenu.a */,
+				C49EFC0286C7400C7379AEB1 /* libPods-SKMenuTests.a */,
+				C9F50A31891134405CBB2BF0 /* libPods-SKMenuUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		53402984212C0BAF0029CF0D = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +144,8 @@
 				534029A8212C0BB00029CF0D /* SKMenuTests */,
 				534029B3212C0BB00029CF0D /* SKMenuUITests */,
 				5340298E212C0BAF0029CF0D /* Products */,
+				7D1B23800AF9713025EEBC76 /* Pods */,
+				31F94D9BA22488235B8BF229 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +162,7 @@
 		5340298F212C0BAF0029CF0D /* SKMenu */ = {
 			isa = PBXGroup;
 			children = (
+				534029C2212C0C080029CF0D /* Sources */,
 				53402990212C0BAF0029CF0D /* AppDelegate.h */,
 				53402991212C0BAF0029CF0D /* AppDelegate.m */,
 				53402993212C0BAF0029CF0D /* ViewController.h */,
@@ -132,6 +194,58 @@
 			path = SKMenuUITests;
 			sourceTree = "<group>";
 		};
+		534029C2212C0C080029CF0D /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				534029C3212C0C080029CF0D /* FloatPart */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		534029C3212C0C080029CF0D /* FloatPart */ = {
+			isa = PBXGroup;
+			children = (
+				53402A18212C0DE30029CF0D /* resources */,
+				534029C4212C0C080029CF0D /* FloatIconItem.h */,
+				534029C5212C0C080029CF0D /* FloatIconItem.m */,
+				534029C6212C0C080029CF0D /* FloatPartHeader.h */,
+				534029C7212C0C080029CF0D /* FloatPartItemView.h */,
+				534029C8212C0C080029CF0D /* FloatPartItemView.m */,
+				534029C9212C0C080029CF0D /* FloatPartView.h */,
+				534029CA212C0C080029CF0D /* FloatPartView.m */,
+			);
+			path = FloatPart;
+			sourceTree = "<group>";
+		};
+		53402A18212C0DE30029CF0D /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				53402A19212C0DE30029CF0D /* bacground@2x.png */,
+				53402A1A212C0DE30029CF0D /* clb.png */,
+				53402A1B212C0DE30029CF0D /* clb_pre.png */,
+				53402A1C212C0DE30029CF0D /* dd.png */,
+				53402A1D212C0DE30029CF0D /* dd_pre.png */,
+				53402A1E212C0DE30029CF0D /* flb.png */,
+				53402A1F212C0DE30029CF0D /* flb_pre.png */,
+				53402A22212C0DE30029CF0D /* tlb.png */,
+				53402A23212C0DE30029CF0D /* tlb_pre.png */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		7D1B23800AF9713025EEBC76 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72BC985B188EAF232AF3D4CF /* Pods-SKMenu.debug.xcconfig */,
+				4840312DB87BF9AE26D1F090 /* Pods-SKMenu.release.xcconfig */,
+				F78357D4AC701C13C6BD375F /* Pods-SKMenuTests.debug.xcconfig */,
+				55DAC1790D02E901A8ECBDA5 /* Pods-SKMenuTests.release.xcconfig */,
+				32B216FA72B6DF1769BBA63E /* Pods-SKMenuUITests.debug.xcconfig */,
+				C7FE0CC0310ED7C8C74CB856 /* Pods-SKMenuUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +253,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 534029B9212C0BB00029CF0D /* Build configuration list for PBXNativeTarget "SKMenu" */;
 			buildPhases = (
+				C391F59BC9C7B104C0EE2B34 /* [CP] Check Pods Manifest.lock */,
 				53402989212C0BAF0029CF0D /* Sources */,
 				5340298A212C0BAF0029CF0D /* Frameworks */,
 				5340298B212C0BAF0029CF0D /* Resources */,
@@ -156,6 +271,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 534029BC212C0BB00029CF0D /* Build configuration list for PBXNativeTarget "SKMenuTests" */;
 			buildPhases = (
+				1B9AB430C3CABCF1BBDD4767 /* [CP] Check Pods Manifest.lock */,
 				534029A1212C0BB00029CF0D /* Sources */,
 				534029A2212C0BB00029CF0D /* Frameworks */,
 				534029A3212C0BB00029CF0D /* Resources */,
@@ -174,6 +290,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 534029BF212C0BB00029CF0D /* Build configuration list for PBXNativeTarget "SKMenuUITests" */;
 			buildPhases = (
+				AC8925E15D566AA52DA8EBEE /* [CP] Check Pods Manifest.lock */,
 				534029AC212C0BB00029CF0D /* Sources */,
 				534029AD212C0BB00029CF0D /* Frameworks */,
 				534029AE212C0BB00029CF0D /* Resources */,
@@ -236,7 +353,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				5340299D212C0BB00029CF0D /* LaunchScreen.storyboard in Resources */,
+				53402A25212C0DE30029CF0D /* clb.png in Resources */,
 				5340299A212C0BB00029CF0D /* Assets.xcassets in Resources */,
+				53402A29212C0DE30029CF0D /* flb.png in Resources */,
+				53402A28212C0DE30029CF0D /* dd_pre.png in Resources */,
+				53402A2D212C0DE30029CF0D /* tlb.png in Resources */,
+				53402A26212C0DE30029CF0D /* clb_pre.png in Resources */,
+				53402A2E212C0DE30029CF0D /* tlb_pre.png in Resources */,
+				53402A27212C0DE30029CF0D /* dd.png in Resources */,
+				53402A24212C0DE30029CF0D /* bacground@2x.png in Resources */,
+				53402A2A212C0DE30029CF0D /* flb_pre.png in Resources */,
 				53402998212C0BAF0029CF0D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,14 +383,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1B9AB430C3CABCF1BBDD4767 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SKMenuTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC8925E15D566AA52DA8EBEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SKMenuUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C391F59BC9C7B104C0EE2B34 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SKMenu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		53402989212C0BAF0029CF0D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				534029DC212C0C080029CF0D /* FloatIconItem.m in Sources */,
 				53402995212C0BAF0029CF0D /* ViewController.m in Sources */,
+				534029E2212C0C080029CF0D /* FloatPartView.m in Sources */,
 				534029A0212C0BB00029CF0D /* main.m in Sources */,
 				53402992212C0BAF0029CF0D /* AppDelegate.m in Sources */,
+				534029DF212C0C080029CF0D /* FloatPartItemView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +458,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				534029E0212C0C080029CF0D /* FloatPartItemView.m in Sources */,
+				534029DD212C0C080029CF0D /* FloatIconItem.m in Sources */,
+				534029E3212C0C080029CF0D /* FloatPartView.m in Sources */,
 				534029AA212C0BB00029CF0D /* SKMenuTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +469,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				534029E1212C0C080029CF0D /* FloatPartItemView.m in Sources */,
+				534029DE212C0C080029CF0D /* FloatIconItem.m in Sources */,
+				534029E4212C0C080029CF0D /* FloatPartView.m in Sources */,
 				534029B5212C0BB00029CF0D /* SKMenuUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,9 +623,11 @@
 		};
 		534029BA212C0BB00029CF0D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72BC985B188EAF232AF3D4CF /* Pods-SKMenu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SKMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -441,15 +635,18 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sk.SKMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		534029BB212C0BB00029CF0D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4840312DB87BF9AE26D1F090 /* Pods-SKMenu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SKMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -457,12 +654,14 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sk.SKMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		534029BD212C0BB00029CF0D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F78357D4AC701C13C6BD375F /* Pods-SKMenuTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -481,6 +680,7 @@
 		};
 		534029BE212C0BB00029CF0D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55DAC1790D02E901A8ECBDA5 /* Pods-SKMenuTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +699,7 @@
 		};
 		534029C0212C0BB00029CF0D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32B216FA72B6DF1769BBA63E /* Pods-SKMenuUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SKMenuUITests/Info.plist;
@@ -516,6 +717,7 @@
 		};
 		534029C1212C0BB00029CF0D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7FE0CC0310ED7C8C74CB856 /* Pods-SKMenuUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SKMenuUITests/Info.plist;
